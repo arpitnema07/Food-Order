@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.style-none{
+    text-decoration: none;
+    color: white;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+
+/* Admin */
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 1.5%;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.5%;
+    border-radius: 3px;
+    color: rgb(19, 14, 14);
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-danger{
+    background-color: #ff6b81;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.5%;
+    border-radius: 3px;
+    color: white;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+
+/* Footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+    
+}
+
+/* Menu */
+.menu {
+    border-bottom: 1px solid gray;
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* Main */
+.main-content{
+    background: #f1f2f6;
+    padding: 3% 0;
+}
+.col-4{
+    width: 19%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* Css for Login page */
+.login{
+    border: 1px solid gray;
+    width: 25%;
+    margin: 5% auto;
+    padding: 2%;
+}
+.input-field{
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.login-btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
